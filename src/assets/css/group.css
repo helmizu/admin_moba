@@ -1,0 +1,57 @@
+nav.team {
+    background-color: #3c4451;
+}
+
+nav.team a {
+    background: -webkit-linear-gradient(0deg, rgba(246, 211, 101, 0.8) 0%, rgba(250, 186, 117, 0.89) 46%, rgb(253, 160, 133) 100%);    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    transition-duration: 3s;
+}
+
+nav.team a:hover {
+    background: -webkit-linear-gradient(0deg, rgb(253, 160, 133) 0%, rgba(250, 186, 117, 0.89) 46%, rgba(246, 211, 101, 0.8) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.activeNav {
+    border-bottom: 2px solid white;
+}
+
+.table-grup {
+    margin-top: 50px;
+}
+
+.table-grup .col-md-12 {
+    margin-bottom: 50px;
+}
+
+.putra {
+    margin-top: 24px;
+}
+
+.putra thead {
+    background-color: #3c4451;
+}
+
+.putra thead tr td {
+    color: white;
+    font-weight: 600;
+}
+
+.match {
+    margin-top: 150px;
+}
+
+.match .col-md-12 {
+    margin-bottom: 50px;
+}
+
+.pertandingan tr {
+    border: 1px solid #dee2e6;
+}

@@ -1,0 +1,13 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const DATA_INSERTED = "DATA_INSERTED";
+export const GET_PELATIH = "GET_PELATIH";
+export const GET_MANAGER = "GET_MANAGER";
+export const GET_MEDIS = "GET_MEDIS";
+export const GET_GURU = "GET_GURU";
+export const GET_PEMAIN = "GET_PEMAIN";
+export const GET_SYARAT = "GET_SYARAT";
+export const VALUE_UPDATE = "VALUE_UPDATE";
+export const SET_LOADING = "SET_LOADING"
+export const SET_LOADING_DATA = "SET_LOADING_DATA"
+export const GET_USERS = "GET_USERS"
