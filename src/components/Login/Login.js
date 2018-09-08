@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Navbar from '../Common/Navbar';
 import { loginUser } from '../../actions/globalAction';
 import Loader from '../Common/Loader';
