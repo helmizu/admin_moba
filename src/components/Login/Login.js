@@ -84,7 +84,6 @@ export class Login extends Component {
             </form>
             </div>
             <div className="bottom">
-            <Link to='/daftar' className="register hidden-xs">Tidak punya akun?</Link>
             </div>
             </div>
             </div>

@@ -24,7 +24,7 @@ export class Navbar extends Component {
         return (
             <div>
             <nav className="navbar navbar-expand-lg navbar team">
-            <Link className="navbar-brand" to="/"><img src={require("../../assets/img/ts-2.png")} width="15%" alt="telkom"/></Link>
+            <Link className="navbar-brand" to="/"><img src={require("../../assets/img/Log2o-01.png")} alt="mobacup"/></Link>
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
             <Link className="nav-link" to="/">ADMIN</Link>
