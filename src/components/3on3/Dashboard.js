@@ -6,7 +6,6 @@ import Loader from '../Common/Loader';
 import Team from './Team';
 import Step from './Step';
 import DataTeam from './DataTeam';
-import Syarat from './Syarat';
 import Form from './Form';
 import { withRouter } from 'react-router-dom';
 import { loadData, loadDetail, loadPemain, verifikasi } from '../../actions/dataAction';
@@ -58,7 +57,7 @@ export class Dashboard extends Component {
     
     componentDidMount = () => {
       this.props.loadData(this.props.match.params.sekolah)
-      if (this.props.match.params.sekolah.includes("3 x 3")) this.props.history.push(`/detail-3on3/${this.props.match.params.sekolah}`)
+      if (!this.props.match.params.sekolah.includes("3 x 3")) this.props.history.push(`/detail/${this.props.match.params.sekolah}`)
     }
     
     render() {
@@ -74,7 +73,6 @@ export class Dashboard extends Component {
             <Step pelatih={pelatih} manager={manager} pemain={pemain} surat_rekomendasi={syarat.rekomendasi} bukti_transfer={syarat.bukti_transfer} verified={syarat.verified} />
             <div className="row">
             <DataTeam data={this.props.data} modalToggle={this.modalToggle} sekolah={this.props.match.params.sekolah}/>
-            <Syarat sekolah={this.props.match.params.sekolah} />
             <Form sekolah={this.props.match.params.sekolah} modalToggle={this.closeModal} namaForm={this.state.namaForm} modalOpen={this.state.modalOpen} update={this.state.update} />
             </div>
             </div>

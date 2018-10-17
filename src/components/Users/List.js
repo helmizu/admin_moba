@@ -26,8 +26,8 @@ export default class List extends Component {
                         </div>
                         <div className="panel-body">
                             <div className="table-responsive">
-                            <table class="table table-hover table-bordered ">
-                            <thead class="thead-dark">
+                            <table className="table table-hover table-bordered ">
+                            <thead className="thead-dark">
                                 <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Email</th>
